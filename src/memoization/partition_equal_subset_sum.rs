@@ -1,7 +1,7 @@
 /** 
- * Partition Equal Subset Sum
+ * 416. Partition Equal Subset Sum
  * 
- * https://leetcode.com/problems/partition-equal-subset-sum/description/?envType=daily-question&envId=2025-04-07
+ * https://leetcode.com/problems/partition-equal-subset-sum
  */
 pub fn can_partition(nums: Vec<i32>) -> bool {
     let sum: i32 = nums.iter().sum();
